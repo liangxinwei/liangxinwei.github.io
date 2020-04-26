@@ -8,8 +8,7 @@
   "scripts": {
     "create": "hexo new page categories",
     "start": "hexo server",
-    "clean": "hexo clean",
-    "build": "bash release.sh"
+    "clean": "hexo clean"
   },
   "dependencies": {
     "hexo": "^3.9.0",
