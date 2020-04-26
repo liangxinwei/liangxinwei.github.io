@@ -61,3 +61,7 @@ IdentityFile ~/.ssh/id_rsa_two
 ![设置新的 origin](/images/WX20200426-121304@2x.png)
 ![设置 username](/images/WX20200426-121341@2x.png)
 ![通过新的 origin 拉取/提交](/images/WX20200426-121701@2x.png)
+
+## 参考
+1. https://tmyam.github.io/blog/2014/05/07/duo-githubzhang-hu-she-zhi/
+2. https://blog.csdn.net/wzy_1988/article/details/19967465
