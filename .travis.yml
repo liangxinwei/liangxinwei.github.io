@@ -5,14 +5,32 @@ node_js:
 cache: npm
 branches:
   only:
-    - master # build master branch only
+    - hexo
 script:
-  - hexo generate # generate static files
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GH_TOKEN
-  keep-history: true
-  on:
-    branch: master
-  local-dir: public
+  - hexo generate
+
+#deploy:
+#  provider: pages
+#  skip-cleanup: true
+#  github-token: $GH_TOKEN
+#  keep-history: true
+#  on:
+#    branch: master
+#  local-dir: public
+
+after_script:
+  - git clone https://${GH_REF} .deploy_git
+  - cd .deploy_git
+  - git checkout master
+  - cd ../
+  - mv .deploy_git/.git/ ./public/
+  - cd ./public
+  - git config user.name "liangxinwei"
+  - git config user.email "sivan.shanghai@gmail.com"
+  - git add .
+  - git commit -m "Travis CI Auto Builder"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+
+env:
+  global:
+    - GH_REF: github.com/liangxinwei/liangxinwei.github.io.git
