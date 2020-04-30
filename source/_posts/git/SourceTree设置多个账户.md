@@ -57,26 +57,36 @@ HostName github.com
 User git
 IdentityFile ~/.ssh/id_rsa_github
 ```
-6、新建 git 项目
+
+**通过如上设置，即可设置多账户。接下来，就可以愉快的玩耍啦～**
+
+
+### 如何新建 git 项目
 ```
 mkdir project && cd project
 git init
 git config user.name "***"
 git config user.email "***"
-# $giturl 代表的是项目的 git clone 的 url 地址，gitlab 即为上面设置的 Host
-git remote add gitlab $giturl
+# $giturl 代表的是项目的 git clone 的 url 地址，github 即为上面设置的 Host
+git remote add github $giturl
 ```
-7、在 SourceTree 已经存在的项目中，打开右上角设置：
+### 如何克隆 git 项目
+```
+# git clone，github 即为上面设置的 Host
+git clone *** --origin github
+```
+### 如何设置在 SourceTree 已经存在的项目中
 
-打开项目设置
+1、打开右上角设置
 ![项目设置](/images/WX20200426-121200@2x.png)
-设置新的 origin
+2、设置新的 origin
 ![origin](/images/WX20200426-121304@2x.png)
-设置 username
+3、设置 username
 ![username](/images/WX20200426-121341@2x.png)
-点击右边的刷新，通过新的 origin 拉取/提交
+4、点击右边的刷新，通过新的 origin 拉取/提交
 ![拉取/提交](/images/WX20200426-121701@2x.png)
 
 ## 参考
 1. [一个客户端设置多个github账号 - tmyam's blog](https://tmyam.github.io/blog/2014/05/07/duo-githubzhang-hu-she-zhi/)
 2. [Git多账号登陆](https://blog.csdn.net/wzy_1988/article/details/19967465)
+3. [Git - git-clone Documentation](https://git-scm.com/docs/git-clone/)
