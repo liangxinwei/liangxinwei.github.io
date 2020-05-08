@@ -32,7 +32,7 @@ Object.defineProperty(a, 'a', {
 // 抛出错误：VM3638:1 Uncaught TypeError: Cannot redefine property: a at Function.defineProperty
 ```
 
-## 对象的访问器属性
+## 2、对象的访问器属性
 
 访问器属性不包含数据值，他们包含一对儿 getter 和 setter 函数（都不是必需的）。在读取访问器属性时，会调用 getter 函数，这个函数负责返回有效的值；在写入访问器属性时，会调用 setter 函数并传入新值，这个函数负责决定如何处理数据。访问器属性有如下4个特性：
 * [Configurable]：表示能否通过 delete 删除属性从而重新定义属性，能否修改属性的特性，或者能否把属性修改为数据属性。对于直接在对象上定义的属性，这个特性的默认值为 true。
