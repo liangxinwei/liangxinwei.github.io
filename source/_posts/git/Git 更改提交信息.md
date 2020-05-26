@@ -63,4 +63,4 @@ git push --force
 ```
 
 ## 参考
-1. [Git - git-clone Documentation](https://git-scm.com/docs/git-clone/)
+1. [更改提交消息 - GitHub 帮助](https://help.github.com/cn/github/committing-changes-to-your-project/changing-a-commit-message#amending-older-or-multiple-commit-messages)
