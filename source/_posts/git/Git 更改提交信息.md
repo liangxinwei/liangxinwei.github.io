@@ -62,5 +62,15 @@ reword f7fde4a Change the commit message but push the same commit.
 git push --force
 ```
 
+### 其他
+有几个命令需要注意一下：
+- p, pick = use commit
+- r, reword = use commit, but edit the commit message
+- e, edit = use commit, but stop for amending
+- s, squash = use commit, but meld into previous commit
+- f, fixup = like “squash”, but discard this commit’s log message
+- x, exec = run command (the rest of the line) using shell
+- d, drop = remove commit
+
 ## 参考
 1. [更改提交消息 - GitHub 帮助](https://help.github.com/cn/github/committing-changes-to-your-project/changing-a-commit-message#amending-older-or-multiple-commit-messages)
