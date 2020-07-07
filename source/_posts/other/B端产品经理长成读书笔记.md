@@ -3,6 +3,7 @@ layout: post
 title: B端产品经理长成读书笔记
 date: 2019-09-12 22:51:34
 categories: 读书笔记
+toc: true
 ---
 PMBOK：项目管理知识体系 Project Management Body Of Knowledge
 

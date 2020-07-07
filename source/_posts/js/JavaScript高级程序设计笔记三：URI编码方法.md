@@ -2,6 +2,7 @@
 title: JavaScript 高级程序设计笔记三：URI编码方法
 date: 2018-11-06 11:02:45
 categories: 前端
+toc: true
 ---
 
 ## URI编码方法

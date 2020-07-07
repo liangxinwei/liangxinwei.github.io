@@ -2,6 +2,7 @@
 title: 搭建一个包含 redux、router、国际化的前端项目框架
 date: 2017-06-08 18:57:41
 categories: 前端
+toc: true
 ---
 
 ## 目的

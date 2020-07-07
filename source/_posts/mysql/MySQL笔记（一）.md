@@ -2,6 +2,7 @@
 title: MySQL笔记（一）
 date: 2020-04-22 09:27:19
 categories: mysql
+toc: true
 ---
 
 ## 引擎

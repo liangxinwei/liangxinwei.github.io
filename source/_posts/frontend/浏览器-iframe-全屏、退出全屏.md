@@ -2,6 +2,7 @@
 title: 浏览器/iframe 全屏、退出全屏
 date: 2018-08-15 18:56:06
 categories: 前端
+toc: true
 ---
 
 外面的 html 文件 index.html：

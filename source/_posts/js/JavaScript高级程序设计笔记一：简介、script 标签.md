@@ -2,6 +2,7 @@
 title: JavaScript 高级程序设计笔记一：简介、script 标签
 date: 2018-09-30 19:02:45
 categories: 前端
+toc: true
 ---
 
 一个完整的JavaScript实现应该由下列三个不同的部分组成：

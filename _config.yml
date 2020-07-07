@@ -75,6 +75,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: maupassant
 
+mathjax: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
@@ -83,10 +85,10 @@ deploy:
   branch: master
 
 theme_config:
-  logo:
+  logo: https://www.spacebox.fun/favicon.ico
   copyright:
     since: 2016
-    name: 梁新维12
+    name: 梁新维
     url: https://github.com/liangxinwei
   menu:
     - page: home

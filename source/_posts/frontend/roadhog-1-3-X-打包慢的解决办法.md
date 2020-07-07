@@ -2,6 +2,7 @@
 title: roadhog 1.3.X 打包慢的解决办法
 date: 2019-06-11 19:01:51
 categories: 前端
+toc: true
 ---
 
 背景：公司的后台管理系统项目基于 Antd Pro 早期版本，使用的脚手架是 [roadhog](https://github.com/sorrycc/roadhog)，虽然接入了 dva 等框架，方便了我们把工作重心集中在业务上，但是随着项目的庞大，问题随之而来，首当其冲的就是线上部署的时候打包慢的问题。因为 road 的扩展不太灵活，其本身的初衷就是尽可能减少webpack的配置，所以如何降低打包的速度就成了亟需解决的问题。

@@ -2,6 +2,7 @@
 title: JavaScript高级程序设计笔记五：对象的属性
 date: 2018-11-18 11:02:45
 categories: 前端
+toc: true
 ---
 
 ECMAScript 有两种属性：数据属性和访问器属性。

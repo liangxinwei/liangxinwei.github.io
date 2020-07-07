@@ -2,6 +2,7 @@
 title: 一些容易被忽略的 JavaScript 知识点
 date: 2017-05-10 18:55:37
 categories: 前端
+toc: true
 ---
 
 ## ReferenceError和TypeError
